@@ -1,0 +1,47 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: antiquewhite;
+}
+
+
+.lista-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.lista-fazer {
+    display: flex;
+    flex-direction: column;
+}
+
+.tarefa-index-fazer {
+    display: flex;
+
+    border: 1px solid black;
+    width: 90%;
+    padding: 0.5em 0;
+    margin: 2px;
+}
+
+.tarefa-botao {
+    display: flex;
+    align-items: flex-end;
+}
+
+.tarefa-nome {
+    background-color: blueviolet;
+    padding: 0.3em;
+}
+
+.tarefa-texto-nome {
+    background-color: brown;
+}
+
+.tarefa-dia{
+    background-color: aqua;
+
+}

@@ -1,0 +1,14 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.rotas-menu {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+
+  background-color: #2cd851;
+  height: 5rem;
+  margin-bottom: 1rem;
+}
